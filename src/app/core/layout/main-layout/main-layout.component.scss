@@ -1,0 +1,27 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-body {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+/* SIDEBAR */
+.sidebar {
+  
+  width: 300px;
+  background: #ffffff;
+  border-right: 1px solid #e5e7eb;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  padding: 24px;
+  background: #f9fafb;
+  overflow: auto;
+}
