@@ -4,24 +4,24 @@
   flex-direction: column;
 }
 
+/* abaixo do header */
 .layout-body {
   flex: 1;
   display: flex;
   overflow: hidden;
 }
 
-/* SIDEBAR */
+/* sidebar */
 .sidebar {
-  
-  width: 300px;
+  width: 290px;
   background: #ffffff;
   border-right: 1px solid #e5e7eb;
 }
 
-/* CONTENT */
+/* conteúdo */
 .content {
   flex: 1;
-  padding: 24px;
+  padding-top: 90px;
   background: #f9fafb;
   overflow: auto;
 }

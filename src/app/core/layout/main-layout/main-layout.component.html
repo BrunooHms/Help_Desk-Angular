@@ -1,21 +1,17 @@
 <div class="layout">
 
-    <!-- HEADER FULL WIDTH -->
-    <app-header></app-header>
-  
-    <!-- BODY -->
-    <div class="layout-body">
-  
-      <!-- SIDEBAR -->
-      <aside class="sidebar">
-        <app-sidebar-c></app-sidebar-c>
-      </aside>
-  
-      <!-- CONTENT -->
-      <main class="content">
-        <router-outlet></router-outlet>
-      </main>
-  
-    </div>
-  
+  <!-- HEADER -->
+  <app-header></app-header>
+
+  <!-- BODY -->
+  <div class="layout-body">
+
+    <app-sidebar-c class="sidebar"></app-sidebar-c>
+
+    <main class="content">
+      <router-outlet></router-outlet>
+    </main>
+
   </div>
+
+</div>
