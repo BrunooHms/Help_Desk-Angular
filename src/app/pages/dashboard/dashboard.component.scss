@@ -1,13 +1,20 @@
+.container {
+  margin-left: 30px;
+}
 .page-title {
     font-size: 18px;
     margin-bottom: 15px;
-    margin-left: 30px;
+    
   }
   
-  .page-subtitle {
+.page-subtitle {
     color: #6b7280;
     margin-bottom: 24px;
-    margin-left: 30px;
     font-size: 15px;
-
   }
+
+.cards {
+  display: flex;
+  gap: 16px;
+}
+

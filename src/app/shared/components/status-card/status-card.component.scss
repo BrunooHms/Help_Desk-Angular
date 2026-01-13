@@ -1,0 +1,35 @@
+.stat-card {
+    background-color: white;
+    height: 95px;
+    width: 240px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #f2f1f1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.stat-card:hover {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.2s ease;
+}
+
+.icon {
+    margin-left: auto; 
+    background-color: #ebf3ff;
+    color: #155dfc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info span {
+    font-size: 15px;
+}
+
