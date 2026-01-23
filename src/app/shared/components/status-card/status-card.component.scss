@@ -1,26 +1,26 @@
 .stat-card {
     background-color: white;
     height: 95px;
-    width: 240px;
+    width: 245px;
     padding: 24px;
     border-radius: 10px;
     border: 1px solid #f2f1f1;
     cursor: pointer;
     display: flex;
     align-items: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 .stat-card:hover {
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.08);
     transition: box-shadow 0.2s ease;
 }
 
 .icon {
     margin-left: auto; 
-    background-color: #ebf3ff;
-    color: #155dfc;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
 }
 
 .info {
@@ -31,5 +31,25 @@
 
 .info span {
     font-size: 15px;
+}
+
+.bg-open {
+    background-color: #ebf3ff;
+    color: #155dfc;
+}
+
+.bg-progress {
+  background-color: #f6f9f4; 
+  color: #e6b800;
+}
+
+.bg-done {
+  background-color: #f4faf7;
+  color: #2fd69a;
+}
+
+.bg-late {
+  background-color: #fbf4f3;
+  color: #e23a2e;
 }
 

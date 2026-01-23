@@ -3,7 +3,7 @@
         <span class="title"> {{title}} </span>
         <span class="value"> {{ value }} </span>
     </div>
-    <div class="icon" [style.background-color]="bgColor">
+    <div class="icon" [ngClass]="statusClass">
         <mat-icon class="material-icons-outlined" > {{ icon }} </mat-icon>
     </div>
 </div>

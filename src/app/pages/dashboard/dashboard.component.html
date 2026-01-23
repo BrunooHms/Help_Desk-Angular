@@ -7,11 +7,14 @@
   </p>
   
   <div class="cards">
-    <app-status-card title="Ingressos Abertos" value="1" icon="report" > </app-status-card>
-    <app-status-card title="Em Andamento" value="3" icon="schedule" > </app-status-card>
-    <app-status-card title="Resolvidos" value="2" icon="check_circle"> </app-status-card>
-    <app-status-card title="Atrasados" value="1" icon="cancel"> </app-status-card>
-  
+    <app-status-card title="Ingressos Abertos" value="1" icon="report" status="open"> </app-status-card>
+    <app-status-card title="Em Andamento" value="3" icon="schedule" status="progress"> </app-status-card>
+    <app-status-card title="Resolvidos" value="2" icon="check_circle" status="done"> </app-status-card>
+    <app-status-card title="Atrasados" value="1" icon="cancel" status="late"> </app-status-card>
+  </div>
+
+  <div class="table-tickets">
+    <app-tickets-table></app-tickets-table>
   </div>
 
 </div>
