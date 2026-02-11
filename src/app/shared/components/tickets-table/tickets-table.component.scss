@@ -1,6 +1,6 @@
 .table-container {
     background-color: white;
-    height: 700px;
+    height: 490px;
     width: 100%;     
     margin-top: 30px;
     border-radius: 10px;
@@ -31,12 +31,32 @@ table td {
     border-bottom: solid 1px rgb(240, 239, 239)
 }
 
-.colorStatus {
-    background-color: #eff6ff;
-    color: #155dfc;
+p {
+    display: inline-block; 
+    padding: 4px 8px;
+    border-radius: 20px;
+    width: fit-content;  
+}
+
+.value-name {
     display: inline-block;
     padding: 7px;
     border-radius: 20px;
+}
+
+.color-status-open {
+    background-color: #eff6ff;
+    color: #155dfc;
+}
+
+.color-status-critical {
+    background-color: oklch(93.6% .032 17.717);
+    color: oklch(50.5% .213 27.518);
+}
+
+.color-status-warning {
+    background-color: oklch(97.3% .071 103.193);
+    color: oklch(55.4% .135 66.442);
 }
 
   
