@@ -18,6 +18,13 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./pages/tickets/tickets.component')
             .then(m => m.TicketsComponent)
+      },
+
+      {
+        path: 'open-tickets',
+        loadComponent: () =>
+          import('./pages/open-ticketss/open-ticketss.component')
+            .then(m => m.OpenTicketssComponent)
       }
     ]
   },
